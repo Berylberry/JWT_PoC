@@ -1,3 +1,4 @@
+using JWT_PoC.Helpers;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
