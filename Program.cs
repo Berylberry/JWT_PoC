@@ -1,4 +1,7 @@
+using JWT_PoC.Authorization;
 using JWT_PoC.Helpers;
+using JWT_PoC.Interfaces;
+using JWT_PoC.Services;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
